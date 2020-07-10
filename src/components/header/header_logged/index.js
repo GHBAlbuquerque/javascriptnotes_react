@@ -17,7 +17,7 @@ function HeaderLogged(props) { //recebe props
         setRedirectToHome(true);
     };
 
-    if (redirectToHome == true) {
+    if (redirectToHome === true) {
         return <Redirect to={{ pathname: '/' }} />
     }
     //navbar.manu só aparece no desktop!!! é o default.

@@ -1,22 +1,16 @@
-@import "./custom_colors";
-
+@import "./_custom_colors";
 .notes{
-    height: calc(100% - 70px);
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
+  height: calc(100% - 70px);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
 }
 
-.bm-menu {
-    background: white;
-    padding-top: 10px;
-    padding-left: 10px;
+.bm-menu{
+  background: white;
+  padding-top: 10px;
 }
 
 .list-item.is-active{
-    background-color: $custom-purple-light;
-}
-
-.notes-element{
-    padding-top: 5px;
+  background-color: #e4e4e4;
 }

@@ -1,19 +1,19 @@
-@import "./_custom_colors";
+@import "./custom_colors";
 
 nav.navbar {
-    height: 70px;
-    border-bottom: 1px solid black;
-
-    .navbar-brand {  
-        img {
-        height: 40px;
-        margin-top:15px;
-        }
+  height: 70px;
+  border-bottom: 1px solid black;
+  
+  .navbar-brand {  
+    img {
+      height: 40px;
+      margin-top:15px;
     }
+  }
 }
 
 .navbar-logged{
-    .navbar-menu{
-    background-color: $custom-purple;  
-    }
+  .navbar-menu{
+    background-color: $custom-purple;
+  }
 }

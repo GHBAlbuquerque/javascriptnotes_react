@@ -1,8 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import HeaderLogged from '../../components/header/header_logged';
 import Notes from '../../components/notes';
-import '../../styles/notes.scss';
-import { Column } from 'rbx';
 
 const NotesScreen = () => {
     const [isOpen, setIsOpen] = useState(false); //aqui estou criando um estado pai que vai fornecer as informacoes para usar de método tanto no header quando na note
