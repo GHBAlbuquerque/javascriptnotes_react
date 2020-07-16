@@ -11,6 +11,7 @@ import UserService from '../../../services/users'; //aqui estou importando meu s
 
 function HeaderLogged(props) { //recebe props
     const [redirectToHome, setRedirectToHome] = useState(false); //crio um state com um método de redirecionamento
+    const [user, setUser] = useState(localStorage.getItem('user'))
 
     const logOut = async () => {
         await UserService.logout();
@@ -59,7 +60,7 @@ function HeaderLogged(props) { //recebe props
                         <Dropdown>
                             <Dropdown.Trigger>
                                 <Button className="button" color="white" outlined>
-                                    <span>Giovanna ▼</span>
+                                    <span>{JSON.parse(user)['name']} ▼</span>
                                 </Button>
                             </Dropdown.Trigger>
                             <Dropdown.Menu>
