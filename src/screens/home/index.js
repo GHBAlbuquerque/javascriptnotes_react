@@ -15,12 +15,9 @@ const Home = () => (
                 <Column.Group>
                     <Column size={5}>
                         <Title size={2} spaced className="has-text-white">
-                            Create notes easily and access when you want. Everything on the cloud.
-</Title>
+                            Create notes easily and access when you want. Everything on the cloud.</Title>
                         <Title size={5} spaced className="has-text-light" subtitle>
-                            Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.<br /><br />
-Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print.
-</Title>
+                            Have your notes ready whenever you want, wherever you need them. Quick and simple notepad editing experience. Taking notes with Javascript Notes is easier than any other notepad or memo pad app.</Title>
                         <Link to="/register" className="button is-outlined is-white is-large">
                             <strong>Register for free Now</strong>
                         </Link>
