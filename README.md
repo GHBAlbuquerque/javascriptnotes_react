@@ -3,7 +3,7 @@
 ## JavaScript Notes
 
 React Client of Javascript Notes app, done as part of Full Stack Developer course at Escola de Javascript (OneBit Code).
-
+Have your notes ready whenever you want, wherever you need them. Quick and simple notepad editing experience. Taking notes with Javascript Notes is easier than any other notepad or memo pad app.
 
  
 ## Technology 
