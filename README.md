@@ -69,7 +69,7 @@ Here are the technologies used in this project.
   
   - Link of deployed application: https://javascript-notes-client-1.herokuapp.com
   
-  - Repository: 
+  - Repository: https://github.com/GHBAlbuquerque/javascriptnotes_react
     - In case of sensitive bugs like security vulnerabilities, please contact
      ghb.albuquerque@gmail.com directly instead of using issue tracker. We value your effort
       to improve the security and privacy of this project!
